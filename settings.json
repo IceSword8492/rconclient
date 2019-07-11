@@ -1,0 +1,8 @@
+{
+    "plugindir": "./plugins",
+    "plugins": [
+    ],
+    "rconhost": "localhost",
+    "rconport": 25575,
+    "rconpass": "1145141919810"
+}
