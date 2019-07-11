@@ -1,7 +1,7 @@
 # RconClient
 
 
-![LICENSE](https://img.shields.io/badge/license-MIT-brightgreen.svg) ![VERSION](https://img.shields.io/badge/version-0.1.1a-orange.svg) ![NODE](https://img.shields.io/badge/node-v12.1.0-orange.svg)
+![LICENSE](https://img.shields.io/badge/license-MIT-brightgreen.svg) ![VERSION](https://img.shields.io/badge/version-0.1.3a-orange.svg) ![NODE](https://img.shields.io/badge/node-v12.1.0-orange.svg)
 
 
 ## 概要
