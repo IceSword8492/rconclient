@@ -7,7 +7,7 @@ settings = {
     plugindir: __dirname + "/plugins",
     plugins: [],
     rconhost: "localhost",
-    rconport: "25575",
+    rconport: 25575,
     rconpass: "password",
     loaded: false
 }
@@ -98,7 +98,7 @@ parse = line => {
     return [tokens.length, tokens, line]
 }
 exec = (argc, argv, line) => {
-    settings.plugins.forEach((_, rcon) => {
+    settings.plugins.forEach((_) => {
         if (_.name === argv[0])
         {
             _.exec({argc, argv, command: argv.join(" "), Rcon, settings})
