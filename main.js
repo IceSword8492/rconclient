@@ -46,8 +46,8 @@ for (i = 0; i < process.argv.length; i++)
 }
 
 walk = (dir) => {
-    let result = []
-    let f = fs.readdirSync(dir, {withFileTypes: true})
+    result = []
+    f = fs.readdirSync(dir, {withFileTypes: true})
     f.forEach(d => {
         if (d.isDirectory())
         {
@@ -101,7 +101,7 @@ exec = (argc, argv, line) => {
     settings.plugins.forEach((_) => {
         if (_.name === argv[0])
         {
-            _.exec({argc, argv, command: argv.join(" "), Rcon, settings})
+            _.exec({argc, argv, command: line, Rcon, settings})
         }
     })
 }
