@@ -1,16 +1,20 @@
 {
   "name": "rconclient",
-  "version": "0.1.5",
+  "version": "1.0.0",
   "description": "",
   "main": "main.js",
-  "dependencies": {
-    "modern-rcon": "^1.0.3"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IceSword8492/rconclient.git"
+  },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IceSword8492/rconclient/issues"
+  },
+  "homepage": "https://github.com/IceSword8492/rconclient#readme"
 }

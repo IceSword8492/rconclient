@@ -1,9 +1,0 @@
-{
-    "plugindir": "./plugins",
-    "plugins": [
-        
-    ],
-    "rconhost": "rcon_host",
-    "rconport": 25575,
-    "rconpass": "rcon_password"
-}
